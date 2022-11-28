@@ -1,0 +1,69 @@
+@import url(./reset.css);
+
+
+#newid ul,ul>li{
+    outline: 1px dashed #ccc;
+}
+
+#newid ul>li>a{
+    padding: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+#newid {
+    width: 100%;
+    height: 49pt;
+    background-color: rgba(61, 58, 54, 0.329);
+
+}
+
+#newid ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#newid ul>li{
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#newid ul>li>a:hover{
+ background-color: #ccc;
+ transition: 0.5s;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', 
+    Arial, sans-serif;
+    font-size: 30pt;
+    padding-top: 0.5em;
+
+}
+legend
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 15pt;
+
+}
+body{
+    background-image: url(./sj-objio-XFWiZTa2Ub0-unsplash.jpg);
+}
+input{
+    background-color: blanchedalmond;
+}
+fieldset{
+    padding-left: 5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    padding-left: 4.5em;
+    font-size: 15pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+
+}

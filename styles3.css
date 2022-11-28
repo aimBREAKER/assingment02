@@ -1,0 +1,47 @@
+@import url(./reset.css);
+#ashi ul>li
+{
+    
+    outline: 0.5em double #ccc;
+}
+#ashi ul
+{
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20pt;
+}
+#ashi ul>li>a
+{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-image: url(./kseniya-lapteva-ZL8UKfJ1wtQ-unsplash.jpg);
+    background-size: auto;
+    opacity: 0.6;
+
+}
+fieldset
+{
+    font-size: 13pt;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-left: 10em;
+}
+
+h1{
+    font-family: fantasy;
+    padding-top: 1em;
+    display: flex ;
+    justify-content: space-around;
+    font-size: 15pt;
+}
+#par{
+    padding-top: 2em;
+    font-size: 20pt;
+    font-style: italic;
+    font-family: monospace;
+
+}
